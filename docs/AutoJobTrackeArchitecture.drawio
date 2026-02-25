@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.3">
+  <diagram name="Page-1" id="pnFhXf580PH7BZko6NmZ">
+    <mxGraphModel dx="540" dy="535" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mx3Y-Ha0jJnm4bTC4yJg-10" parent="1" style="text;whiteSpace=wrap;fontSize=18;fontStyle=1;labelBorderColor=default;textShadow=1;labelBackgroundColor=default;" value="AutoJobTracker - AWS Serverless Architecture" vertex="1">
+          <mxGeometry height="40" width="410" x="80" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="mx3Y-Ha0jJnm4bTC4yJg-4" edge="1" parent="1" source="mx3Y-Ha0jJnm4bTC4yJg-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mx3Y-Ha0jJnm4bTC4yJg-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mx3Y-Ha0jJnm4bTC4yJg-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;EventBridge&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="90" x="20" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="mx3Y-Ha0jJnm4bTC4yJg-6" edge="1" parent="1" source="mx3Y-Ha0jJnm4bTC4yJg-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mx3Y-Ha0jJnm4bTC4yJg-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mx3Y-Ha0jJnm4bTC4yJg-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" value="&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;AWS Lambda&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Triggered by EventBridge (rate: 6 hours)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="200" x="150" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="mx3Y-Ha0jJnm4bTC4yJg-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;S3&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Store CSV (Deduplication)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="390" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="mx3Y-Ha0jJnm4bTC4yJg-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;SNS&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Send Email if New Jobs&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="290" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="mx3Y-Ha0jJnm4bTC4yJg-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="371" as="sourcePoint" />
+            <mxPoint x="370" y="441" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
