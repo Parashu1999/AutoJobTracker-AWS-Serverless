@@ -54,7 +54,7 @@ Attach policies:
 
 This project was designed and implemented by:
 
-**Parashurama Gachhinmani**  
+**Parashurama**  
 MCA Graduate | AWS & DevOps Engineer (Aspiring)  
 Focused on Serverless Architecture, Cloud Automation & CI/CD
 
