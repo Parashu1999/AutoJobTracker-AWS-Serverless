@@ -47,5 +47,18 @@ Attach policies:
 - AWS IAM Debugging
 - Event-Driven Design
 - REST API Integration
+
+---
+
+## 👨‍💻 Developer
+
+This project was designed and implemented by:
+
+**Parashurama Gachhinmani**  
+MCA Graduate | AWS & DevOps Engineer (Aspiring)  
+Focused on Serverless Architecture, Cloud Automation & CI/CD
+
+🔗 LinkedIn: https://www.linkedin.com/in/parashurama-s/  
+🌐 Portfolio: https://axecloud.lovable.app/
 - Data Deduplication
 - Cloud Automation
