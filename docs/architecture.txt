@@ -1,0 +1,9 @@
+AutoJobTracker Architecture
+
+EventBridge (Scheduled - Every 6 Hours)
+        ↓
+AWS Lambda (Python Processing Layer)
+        ↓
+Amazon S3 (CSV Storage with Deduplication)
+        ↓
+Amazon SNS (Email Notification)
