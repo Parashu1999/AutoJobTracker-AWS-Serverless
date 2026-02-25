@@ -60,5 +60,3 @@ Focused on Serverless Architecture, Cloud Automation & CI/CD
 
 🔗 LinkedIn: https://www.linkedin.com/in/parashurama-s/  
 🌐 Portfolio: https://axecloud.lovable.app/
-- Data Deduplication
-- Cloud Automation
